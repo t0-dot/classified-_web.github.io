@@ -1,0 +1,161 @@
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.wrapper{
+    width:1170px;
+    margin:40px auto;
+}
+.sidebar{
+    width:25%;
+    float: left;
+    background: black;
+    height:1000px;
+    border-radius:20px 0px;
+    margin-top:48px;
+}
+
+
+.content{
+    width:73%;
+    float:left;
+    margin-left:10px;
+    margin-top:48px;
+}
+
+.menubar ul{
+    list-style-type: none;
+
+
+}
+.menubar a{
+    text-decoration: none;
+    color:orange;
+    text-transform:uppercase; 
+    font-family: 'Lato', sans-serif;
+}
+.menubar  li{
+    padding:10px 0px;
+    margin-right:20px;
+    border-bottom:dashed 1px white;
+
+}
+
+.content h1
+{
+    background: grey;
+    color: #ffff;
+    padding: 10px 20px;
+    margin: 0px;
+    text-transform: uppercase;
+    border-radius: 20px 20px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
+.btntable {
+    text-decoration: none;
+    padding: 8px 23px;
+    margin: 5px;
+    color: white;
+    width: 16%;
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+}
+.btnedit
+{
+    background-color: #607d8b
+}
+
+.btnview
+{
+    background-color: #ff5722
+}
+
+.btnactivate
+{
+    background-color: #4caf50
+}
+.btndel
+{
+    background-color: #f44336
+}
+.btndeac
+{
+background-color: #dc2b1e    
+}
+#myTable tr:nth-child(even)
+{
+    background-color:#ccc
+}
+input[type="text"]{
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 0px;
+    border: solid 1px gray;
+    margin: 10px 0px 10px 0px;
+    outline:0;
+}
+input[type="text"]:hover{
+    background-color: #ccc; 
+    border-style: none;
+}
+input[type="Submit"]{
+    display: block;
+    width: 95%;
+    padding: 10px 20px;
+    border-radius:10px 0px 10px 0px;
+    border: solid 1px gray;
+
+    background: black;
+    color:white;
+    outline:0;
+}
+input[type="Submit"]:hover{
+    background-color: white; 
+    border-style: none;
+    color:black;
+    
+
+}
+
+.packages{
+
+    background: gray;
+    padding: 10px 0px 10px 20px;
+   
+}
+.clear{
+    clear:both;
+}
+.table{
+     margin-top: 30px;
+}
+.badge
+{
+        background: orange;
+    color: #fff;
+    margin: 10px 0px;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#textarea{
+    margin: 0px;
+    width: 786px;
+    height: 152px;border-radius: 0px 10px 10px 0px;
+    outline:0;
+}
+#textarea:hover{
+     background-color: #ccc; 
+    border-style: none;
+}
